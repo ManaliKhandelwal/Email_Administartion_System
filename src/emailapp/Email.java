@@ -73,7 +73,7 @@ public class Email {
         System.out.println("Do you want to change password? (Y/N)");
         char choice = sc.next().charAt(0);
         do {
-            if(choice == 'y' || choice == 'N') {
+            if(choice == 'y' || choice == 'Y') {
                 flag = true;
                 System.out.println("Enter Current Password: ");
                 String temp = sc.next();
